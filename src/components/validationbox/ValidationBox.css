@@ -1,0 +1,15 @@
+.validation-box {
+  padding: 2% 1%;
+  text-indent: 1rem;
+  height: auto;
+  font-style: italic;
+  color: #ba312b;
+}
+
+#hide {
+  position: absolute;
+  color: #ba312b;
+  top: 0;
+  left: 0;
+  font-weight: 900;
+}

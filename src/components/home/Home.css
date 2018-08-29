@@ -1,0 +1,16 @@
+.welcome {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #373538;
+  margin-top: 2%;
+}
+
+.home {
+  text-align: center;
+}
+
+#modal-button {
+  margin-left: auto;
+  margin-right: auto;
+}

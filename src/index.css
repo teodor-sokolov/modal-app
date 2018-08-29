@@ -1,0 +1,92 @@
+* {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2a1610;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+p {
+  text-align: justify;
+}
+
+textarea {
+  padding: 3% 1% 4%;
+  text-indent: 1rem;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+}
+
+::-ms-input-placeholder {
+  font-style: italic;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+}
+
+.nav-button {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #373538;
+  font-size: 1.2em;
+  color:#00a1c2;
+  width: 36%;
+  margin-left: 2%;
+  border: 1px solid #373538;
+  -webkit-transition: background-color 300ms linear, border-color 300ms linear;
+  -ms-transition: background-color 300ms linear, border-color 300ms linear;
+  transition: background-color 300ms linear, border-color 300ms linear;
+  margin-top: 2%;
+}
+
+.nav-button:hover {
+  background-color: white;
+  border-color: #00a1c2;
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media only screen and (min-width: 600px) {
+  .nav-button {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body, textarea {
+    font-size: 0.9rem;
+  }
+
+  .nav-button {
+    width: 16%;
+  }
+}
