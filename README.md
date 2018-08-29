@@ -9,16 +9,14 @@ The user can load youtube videos, also by entering the id of a youtube video aft
 
 
 
-1. Unzip the archive.
+1. After downloading the repository navigate in the terminal to the project directory - "modal-app" and enter "npm install".
 
-2. Navigate in the terminal to the project directory - "modal-app" and enter "npm install".
-
-3. To start the webpack-dev-server, navigate in the terminal to the project directory - "modal-app" and
+2. To start the webpack-dev-server, navigate in the terminal to the project directory - "modal-app" and
 enter "npm start".
 
-4. To create the production build, navigate in the terminal to the project directory - "modal-app" and
+3. To create the production build, navigate in the terminal to the project directory - "modal-app" and
 enter "npm run build".
 
-5. To start the production build from node.js server, navigate in the terminal to the project directory - "modal-app" and enter "node server.js".
+4. To start the production build from node.js server, navigate in the terminal to the project directory - "modal-app" and enter "node server.js".
 
-6. Navigate to "localhost:3000" in the browser.
+5. Navigate to "localhost:3000" in the browser.
